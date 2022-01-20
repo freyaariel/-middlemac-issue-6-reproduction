@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<script>
+  window.location.href = "../../index.html?localePath=en.lproj#/topic-sample_group_number_one-page_one";
+</script>
+<meta charset='UTF-8'>
+<meta content='0; url=../../index.html?localePath=en.lproj#/topic-sample_group_number_one-page_one' http-equiv='refresh'>
+<meta content='Let’s demonstrate some of Apple’s built-in features.' name='description'>
+<title>Some Apple Features</title>
+</head>
+<body class='AppleTopic' dir='ltr' id='topic-sample_group_number_one-page_one'>
+<a name='page_one'></a>
+<figure class='topicIcon'>
+  <img src="/Resources/SharedGlobalAssets/convention/icon_256x256.png" srcset="/Resources/SharedGlobalAssets/convention/icon_256x256.png 1x, /Resources/SharedGlobalAssets/convention/icon_256x256@2x.png 2x" alt="" />
+</figure>
+<h1>Some Apple Features</h1>
+
+<p>Let’s demonstrate some of Apple’s built-in features.</p>
+
+<ul>
+  <li>
+    <p>It looks like blurbs aren’t really user visible, but they are captured in the
+<code>navigation.json</code> file, so should be provided nonetheless.</p>
+  </li>
+  <li>
+    <p>Because this page is part of the “Sample Group Number One” (having the title
+“First Sample Group”), Apple’s help system places this as a chapter heading
+at the top of this page.</p>
+  </li>
+  <li>
+    <p>Note that this page number is defined by frontmatter, and <em>not</em> by prefixing
+the file name.</p>
+  </li>
+</ul>
+
+<h2 id="images">Images</h2>
+<p>Apple’s images are always in a <code>figure</code> tag. Middlemac will automatically provide
+framesets for these.</p>
+
+<figure>
+  <img src="/Resources/SharedGlobalAssets/convention/icon_32x32.png" srcset="/Resources/SharedGlobalAssets/convention/icon_32x32.png 1x, /Resources/SharedGlobalAssets/convention/icon_32x32@2x.png 2x" alt="" />
+</figure>
+
+<h2 id="asides">Asides</h2>
+
+<p>“Asides” are loaded via AJAX from another file into a popup element on the 
+current page. In this sample project any asides have been put into the <code>asides</code>
+directory, but that's just for organization and not a requirement.</p>
+
+<p>So, what is <a href="topic-asides-aside_description.html#topic-asides-aside_description" aside="topic-asides-aside_description" class="xRef Aside">an aside</a>?
+Activate the specially decorated link to find out.</p>
+
+<h2 id="tasks">Tasks</h2>
+
+<p>Apple currently uses “tasks” in many of its modern Help Books, and these are
+relatively simply to implement with the <code>helpbook_task</code> helper.</p>
+
+<p>Single tasks are always displayed in the expanded state, but when multiple tasks
+are on the same page, like here, they have working disclosure triangles to 
+reveal them.</p>
+
+<p>Make sure you provide unique id’s to the tasks, because Apple’s help system
+keeps track of which one are revealed or hidden in between page visits.</p>
+
+<div id="task1" class="Task">
+<h2 class="Name" role="button" aria-controls="aria-task1">
+    Expand this task to see what content it contains
+</h2>
+<div class="TaskBody" role="region" id="aria-task1">
+    <p>Nam consequatur vero amet voluptatem rerum autem non impedit autem qui at quia eveniet illum. quis a nulla est et exercitationem voluptas. aperiam debitis natus et rerum perferendis. repudiandae eligendi reiciendis aliquam sed. minus dignissimos assumenda incidunt qui ratione sapiente accusantium</p>
+
+    <p>Blanditiis quia numquam dolor doloribus corporis quo. accusantium illo maxime voluptatem iusto itaque fuga ut illum ea. voluptatem alias dolorem animi itaque vitae ut voluptatem aspernatur non ut nobis. autem delectus occaecati assumenda aliquam ut est dolor neque perferendis odio qui voluptas vero omnis. facilis a nihil consequatur ea culpa nesciunt in blanditiis qui debitis modi possimus cumque. quis rerum minima et enim atque doloremque quo molestiae ut quas accusamus ex exercitationem harum. quidem blanditiis omnis non iusto labore voluptatem</p>
+
+  </div>      
+</div>
+
+<div id="task2" class="Task">
+<h2 class="Name" role="button" aria-controls="aria-task2">
+    This task indicates the answer to the question of life
+</h2>
+<div class="TaskBody" role="region" id="aria-task2">
+
+    <p>The generally accepted answer to this query is <strong>forty-two</strong>.</p>
+
+    <p>Deserunt expedita eum quisquam doloremque adipisci quo facilis ut occaecati. quaerat aut cum quia libero vero vero aut enim voluptatum quos vel. voluptate consectetur veritatis non ex eius odio eveniet tempora veniam tempora eos ea. minus ea fugit sapiente maxime necessitatibus assumenda dolore et et quidem voluptate rem inventore. voluptatibus culpa et quos ut quibusdam tenetur doloremque</p>
+
+    <p>Corrupti dolorum voluptatem consequuntur sunt fuga. dicta cumque voluptatem voluptatem qui eligendi quaerat natus velit. et sit quas fuga accusantium commodi</p>
+
+  </div>      
+</div>
+
+<div id="task3" class="Task">
+<h2 class="Name" role="button" aria-controls="aria-task3">
+    Perform this third task
+</h2>
+<div class="TaskBody" role="region" id="aria-task3">
+    <p>Illum recusandae natus enim. eveniet expedita dolore quia autem minima tempore consectetur consequatur quia dolores corrupti temporibus. ratione non voluptatem voluptatem quo enim voluptas ut non laudantium. et sequi iusto laborum et nostrum earum et molestiae eius autem ab laudantium accusantium. autem porro sed nam saepe sed culpa praesentium est adipisci. quia nisi debitis quaerat veritatis minima sed quidem temporibus fuga ratione est quia officiis. blanditiis placeat voluptatem quo odit et ut sunt modi sed
+<figure>
+  <img src="/Resources/SharedGlobalAssets/convention/icon_256x256.png" alt="Icon loaded with the Markdown reference format" srcset="/Resources/SharedGlobalAssets/convention/icon_256x256.png 1x, /Resources/SharedGlobalAssets/convention/icon_256x256@2x.png 2x" />
+</figure>
+Dolore quia maiores ut minus velit et. provident nam dolores veniam exercitationem consequatur. aliquid atque ipsum sed dolores incidunt harum quo debitis temporibus et sed enim enim</p>
+
+  </div>      
+</div>
+
+<h2 id="tips">Tips</h2>
+<div class="Alert">
+<p class="Tip">
+    <strong class="tip">Tip</strong> You can do lots of neat things like use 
+    Apple’s tip style, and it’s easy with the plethora of helpers. This tip
+    uses the official Apple way to make a tip, but you have to use HTML to
+    conform to Apple’s `&lt;div&gt;` and `&lt;p&gt;` structure.
+</p>
+</div>
+
+<p class="tip">However that’s kind of pain to remember, so <em>Middlemac</em> makes it really
+easy to add single-paragraph tips right in Markdown, by assigning a style.
+The appearance is a <em>little</em> bit different than Apple’s way, but honors the
+look and feel.</p>
+
+<p class="warning">Although I couldn’t find any <strong>warning</strong> examples in Apple’s help, it’s
+something that’s sure to be needed by other developers, and so imitating
+Apple’s <strong>Tip</strong> style gives <em>Middlemac</em> access to simple warnings, too.</p>
+
+<p class="note">Can you guess that this is a note? It’s also a good place to point out that
+Apple-like “see also” sections are automatically included at the bottom of
+pages if you include a <code>content_for :seeAlso</code> block in your source code.</p>
+
+
+<div class='LinkUniversal'>
+<strong>
+See Also
+</strong>
+<a href="#/topic-en.lproj-hello_world_file">Hello World File</a>
+<a href="#/topic-sample_group_number_one-page_two">Page Two</a>
+<a href="#/topic-en.lproj-goodbye_world_file">Goodbye World</a>
+
+</div>
+</body>
+</html>

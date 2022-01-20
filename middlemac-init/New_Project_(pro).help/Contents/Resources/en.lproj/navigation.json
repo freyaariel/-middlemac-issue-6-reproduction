@@ -1,0 +1,156 @@
+{
+    "birdseed_version": 5,
+    "build_id": "3.1.1",
+    "build_date": "2022.01.20-16:08:51",
+    "collect_feedback": false,
+    "copyright": "topic-en.lproj-copyright",
+    "copyright_text": "© 2021 Jim Derry. All rights reserved.",
+    "css": "",
+    "enable_tracking": false,
+    "framework": "middlemac-3.1.2",
+    "icon": "",
+    "landing": "topic-Resources-en.lproj",
+    "locale": "en",
+    "platform": "mac",
+    "printable_page": "",
+    "product": "New Project Pro",
+    "quick_links": [],
+    "sections": {
+        "section-en.lproj-sample_group_number_one": {
+            "name": "First Sample Group",
+            "children": [
+                "topic-sample_group_number_one-page_one",
+                "topic-sample_group_number_one-page_two"
+            ]
+      },
+        "section-en.lproj-sample_group_number_two": {
+            "name": "Sample Group Number 2",
+            "children": [
+                "section-sample_group_number_two-nested_group_example",
+                "topic-sample_group_number_two-page_two",
+                "topic-sample_group_number_two-page_three"
+            ]
+      },
+        "section-sample_group_number_two-nested_group_example": {
+            "name": "A nested group example",
+            "children": [
+                "topic-nested_group_example-page_one",
+                "topic-nested_group_example-pagina_dos",
+                "topic-nested_group_example-page_san"
+            ]
+      }
+    },
+    "show_previous_next": false,
+    "source_schema": "apd-schema",
+    "title": "New Project Pro Help",
+    "toc": [
+        "topic-en.lproj-hello_world_file",
+        "section-en.lproj-sample_group_number_one",
+        "section-en.lproj-sample_group_number_two",
+        "topic-en.lproj-testing_world_file",
+        "topic-en.lproj-goodbye_world_file"
+    ],
+    "topics": {
+        "topic-Resources-en.lproj": {
+            "name": "Middlemac Project",
+            "href": "index.html",
+            "categories": [
+              "landing"
+            ]
+        },
+        "topic-asides-aside_description": {
+            "name": "What is an aside?",
+            "summary": "A short article describing what an “aside” is in a help file.",
+            "href": "asides/aside_description.html",
+            "categories": [
+              "aside"
+            ]
+        },
+        "topic-en.lproj-copyright": {
+            "name": "License",
+            "summary": "License Page",
+            "href": "copyright.html",
+            "categories": [
+              "copyright"
+            ]
+        },
+        "topic-en.lproj-goodbye_world_file": {
+            "name": "Goodbye World",
+            "summary": "Discover your project saying “Goodbye, world!”",
+            "href": "goodbye_world_file.html",
+            "categories": [
+            ]
+        },
+        "topic-en.lproj-hello_world_file": {
+            "name": "Hello World",
+            "summary": "Discover your project saying “Hello, world!”",
+            "href": "hello_world_file.html",
+            "categories": [
+            ]
+        },
+        "topic-en.lproj-index_hpd": {
+            "name": "HPD redirector",
+            "href": "index_hpd.html",
+            "categories": [
+            ]
+        },
+        "topic-en.lproj-testing_world_file": {
+            "name": "Testing World",
+            "summary": "Another page that uses Middlemac’s helpers so that Cucumber has something predictable to examine.",
+            "href": "testing_world_file.html",
+            "categories": [
+            ]
+        },
+        "topic-nested_group_example-page_one": {
+            "name": "Page 1",
+            "summary": "Think of something interesting for this blurb.",
+            "href": "sample_group_number_two/nested_group_example/page_one.html",
+            "categories": [
+            ]
+        },
+        "topic-nested_group_example-page_san": {
+            "name": "Page 3",
+            "summary": "Think of something interesting for this blurb, as well.",
+            "href": "sample_group_number_two/nested_group_example/page_san.html",
+            "categories": [
+            ]
+        },
+        "topic-nested_group_example-pagina_dos": {
+            "name": "Page 2",
+            "summary": "Think of something else interesting for this blurb.",
+            "href": "sample_group_number_two/nested_group_example/pagina_dos.html",
+            "categories": [
+            ]
+        },
+        "topic-sample_group_number_one-page_one": {
+            "name": "Some Apple Features",
+            "summary": "Let’s demonstrate some of Apple’s built-in features.",
+            "href": "sample_group_number_one/page_one.html",
+            "categories": [
+            ]
+        },
+        "topic-sample_group_number_one-page_two": {
+            "name": "Writers",
+            "summary": "Here are some writers, added using Middleman’s `data` system.",
+            "href": "sample_group_number_one/page_two.html",
+            "categories": [
+            ]
+        },
+        "topic-sample_group_number_two-page_three": {
+            "name": "The third page",
+            "summary": "Page three sort order is by filename, not by frontmatter, also.",
+            "href": "sample_group_number_two/page_three.html",
+            "categories": [
+            ]
+        },
+        "topic-sample_group_number_two-page_two": {
+            "name": "Page two",
+            "summary": "Page two sort order is by filename, not by frontmatter.",
+            "href": "sample_group_number_two/page_two.html",
+            "categories": [
+            ]
+        }
+    },
+    "urls": {},
+    "version": "3.1.1"
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "text-direction": "ltr",
+    "name": "English (U.S.)‎‎",
+    "isoName": "English (U.S.)‎‎",
+    "isoCodes": [
+      "en",
+      "en-us"
+    ],
+    "folder": "en.lproj"
+  },
+  {
+    "text-direction": "ltr",
+    "name": "Español‎",
+    "isoName": "Spanish‎",
+    "isoCodes": [
+      "es"
+    ],
+    "folder": "es.lproj"
+  }
+]
